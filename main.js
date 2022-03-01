@@ -6,3 +6,13 @@ function mobileMenu(){
         x.style.display = "block";
     }
 }
+
+ScrollReveal({
+    reset: true
+  });
+  
+ScrollReveal('.arrow-down',
+    {distance:'100px'},
+    {duration: '500ms'}
+    
+);

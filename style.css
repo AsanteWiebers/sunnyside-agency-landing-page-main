@@ -6,6 +6,8 @@
     padding: 0;
 }
 
+    /* Custom properties  */
+
 :root {
 
     /* Primary colours */
@@ -52,7 +54,7 @@ body {
     font-size: 1.125rem ;
     font-family: var(--barlow);
     line-height: 1.6;
-    
+  
 }
 
 .container {
@@ -123,6 +125,7 @@ body {
 }
 
 /* ----------- */
+/* Navigation */
 
 .top-nav {
     
@@ -185,6 +188,7 @@ button {
     right: 1.2em;
 }
 
+/* headings */
 
 h1 {
     color: var(--white);
@@ -198,8 +202,6 @@ h1 {
     text-transform: uppercase;
     width: 80%;
 }
-
-
 
 h2 {
     font-family: var(--fraunces);
@@ -227,8 +229,6 @@ h4 {
 
 /*  Main Area */
 
-
-
 .main__text {
     text-align: center;
     width: 90%;
@@ -237,7 +237,6 @@ h4 {
 }
 
 .main__text__container {
-    margin: 10em 0 0 ;
     display: inline-block;
 }
 
@@ -259,11 +258,10 @@ h4 {
 }
 
 .testimonial-text {
-    
+
     text-align: center;
     color: var(--very-dark-blue);
     padding: 0 1em;
-    
 }
 
 .active-yellow {
@@ -452,37 +450,42 @@ h4 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
+        
     }
 
     .grid-item {
         padding: 6em;
         text-align: left;
+        
     }
-
-    .big-gallery-img {
-        height: 100%;
+    
+    .big-transform-img,
+    .big-stand-out-img {
         object-fit: cover;
+        height: 100%;
         width: 100%;
     }
 
-    .big-transform-img {
-        object-fit: cover;
-    }
-
-    .big-stand-out-img {
-        object-fit: cover;
-    }
 
     .bg-graphic-design {
+       
         background: url(/images/desktop/image-graphic-design.jpg);
         background-repeat: no-repeat;
         object-fit: cover;
+        height: 100%;
+        width: 100%;
     }
 
     .bg-photography {
         background: url(/images/desktop/image-photography.jpg);
         background-repeat: no-repeat;
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
     }
 
+    main {
+        display: none;
+    }
 
 }
