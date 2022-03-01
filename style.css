@@ -361,6 +361,8 @@ h4 {
 
 
 @media(min-width: 600px){
+
+
     .mobile-menu {
         display: none;
     }
@@ -415,8 +417,18 @@ h4 {
         width: 100%;
     }
 
-    
+    .big-transform-img {
+        object-fit: cover;
+    }
 
+    .big-stand-out-img {
+        object-fit: cover;
+    }
 
+    .big-grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+    }
     
 }
