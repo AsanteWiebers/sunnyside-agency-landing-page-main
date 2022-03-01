@@ -199,6 +199,8 @@ h1 {
     width: 80%;
 }
 
+
+
 h2 {
     font-family: var(--fraunces);
     font-size: var(--m-font-size);
@@ -224,6 +226,8 @@ h4 {
 }
 
 /*  Main Area */
+
+
 
 .main__text {
     text-align: center;
@@ -273,6 +277,11 @@ h4 {
     text-transform: uppercase;
     font-family: var(--fraunces);
     padding-bottom: 3em;
+}
+
+/* hide big grid container */
+.big-grid-container {
+    display: none;
 }
 
 /* Testimonials */
@@ -357,11 +366,12 @@ h4 {
     text-align: center;
     padding-top: 4em;
 }
-
+/* ----------- */
 
 
 @media(min-width: 600px){
 
+    /* navigation */
 
     .mobile-menu {
         display: none;
@@ -383,6 +393,10 @@ h4 {
         font-size: var(--primary-font-size);
     }
 
+    a.big__navlink:hover {
+        color: var(--soft-red);
+    }
+
     .big__navlink--btn {
         text-decoration: none;
         color: var(--dark-blue);
@@ -392,6 +406,16 @@ h4 {
         border-radius: 40px;
     }
 
+    /* hero section */
+
+    h1 {
+        padding: unset;
+    }
+
+    .arrow-down {
+        margin-top: 7em;
+    }
+    
     .header-img {
         background-image: url(/images/desktop/image-header.jpg);
         background-position: center;
@@ -404,11 +428,21 @@ h4 {
     .banner-img {
         display: none;
     }
-    
+
+    /* --------- */
+
     .container {
         display: grid;
         grid-template-columns: repeat(2,1fr) ;
         grid-template-rows: repeat(3,50vw);
+    }
+
+    /* bigger screens grid */
+
+    .big-grid-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, 1fr);
     }
 
     .big-gallery-img {
@@ -425,10 +459,16 @@ h4 {
         object-fit: cover;
     }
 
-    .big-grid-container {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 1fr);
+    .bg-graphic-design {
+        background: url(/images/desktop/image-graphic-design.jpg);
+        background-repeat: no-repeat;
+        object-fit: cover;
     }
-    
+
+    .bg-photography {
+        background: url(/images/desktop/image-photography.jpg);
+        background-repeat: no-repeat;
+    }
+
+
 }
