@@ -412,6 +412,15 @@ h4 {
         padding: unset;
     }
 
+    h2 {
+        text-align: left;
+        margin: 0;
+    }
+
+    p.active-yellow {
+        text-align: left;
+    }
+
     .arrow-down {
         margin-top: 7em;
     }
@@ -443,6 +452,11 @@ h4 {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
+    }
+
+    .grid-item {
+        padding: 6em;
+        text-align: left;
     }
 
     .big-gallery-img {
