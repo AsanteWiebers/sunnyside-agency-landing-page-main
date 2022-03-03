@@ -39,6 +39,8 @@
 
     --barlow : 'Barlow', sans-serif;
     --fraunces: 'Fraunces', serif;
+
+    
 }
 
 ul,
@@ -332,7 +334,7 @@ h4 {
 /* Footer */
 
 .footer-container {
-    background: var(--light-green);
+    background: var(--cyan);
     text-align: center;
     margin: 0 auto;
 }
@@ -510,4 +512,29 @@ h4 {
     .grid-container {
         display: flex;
     }
+
+    /* footer */
+
+    .logo-container {
+        padding: 3em 0 0 ;
+        margin: 0 auto;
+    }
+    
+    .footer_links {
+        width: 20%;
+        margin: 0 auto;
+    }
+
+    .footer__items {
+        font-size: var(--small-font-size);
+    }
+
+    .social_list {
+        width: 30%;
+    }   
+
+    .social_links {
+        padding: 0 2em 0;
+    }    
+
 }
