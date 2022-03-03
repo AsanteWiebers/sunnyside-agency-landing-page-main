@@ -491,16 +491,23 @@ h4 {
 
     .container {
         max-width: unset;
+        height: 100vh;
     }
     
     .testimonials-container {
         display: flex;
         justify-content: space-between;
+        padding: 3em 0 0 ;
         margin: 0 auto;
         width: 90%
     }
     
     .testimonials {
+        padding: 4em 0 0 ;
         width: 100%;
+    }
+
+    .grid-container {
+        display: flex;
     }
 }
