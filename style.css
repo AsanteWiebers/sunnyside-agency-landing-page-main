@@ -82,7 +82,7 @@ body {
 /* Images */
 
 .header-img {
-    background-image: url(/images/mobile/image-header.jpg);
+    background-image: url(images/mobile/image-header.jpg);
     height: 65vh;
     background-position: center;
     background-size: cover;
@@ -105,7 +105,7 @@ body {
 
 .graphic-img {
     
-    background-image: url(/images/mobile/image-graphic-design.jpg);
+    background-image: url(images/mobile/image-graphic-design.jpg);
     background-position: center;
     background-size: cover;
     height: 80vh;
@@ -114,7 +114,7 @@ body {
 }
 
 .photography-img {
-    background-image: url(/images/mobile/image-photography.jpg);
+    background-image: url(images/mobile/image-photography.jpg);
     background-position: center;
     background-size: cover;
     width: 100%;
@@ -446,7 +446,7 @@ h4 {
     }
     
     .header-img {
-        background-image: url(/images/desktop/image-header.jpg);
+        background-image: url(images/desktop/image-header.jpg);
         background-position: center;
         background-size: cover;
         min-width: 100%;
@@ -487,7 +487,7 @@ h4 {
 
     .bg-graphic-design {
        
-        background: url(/images/desktop/image-graphic-design.jpg);
+        background: url(images/desktop/image-graphic-design.jpg);
         background-repeat: no-repeat;
         object-fit: cover;
         height: 100%;
@@ -495,7 +495,7 @@ h4 {
     }
 
     .bg-photography {
-        background: url(/images/desktop/image-photography.jpg);
+        background: url(images/desktop/image-photography.jpg);
         background-repeat: no-repeat;
         object-fit: cover;
         height: 100%;
